@@ -8,8 +8,9 @@
 .text-right{
     text-align: right;
 }
-.home{
-    background: radial-gradient(pink, white);   
+.mainbackground{
+    background: rgb(147,147,147);
+    background: radial-gradient(circle, rgba(147,147,147,1) 7%, rgba(93,92,107,1) 100%);
     padding: 20%;
 }
 .head{
@@ -36,4 +37,21 @@
 .bio{
     background: radial-gradient(white, white);   
     padding: 20%;  
+}
+.portfolio-background{
+    background-color: grey;
+    padding: 10%;
+    border-bottom-style: solid;
+}
+section {
+    display: flex;
+  }
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: grey;
+  }
+.flex{
+    padding-left: 5%;
+    padding-right: 5%;
 }

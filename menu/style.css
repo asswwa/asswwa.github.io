@@ -1,0 +1,105 @@
+.bg{
+   background-color: dimgrey;
+    color: aliceblue;    
+}
+.text-right{
+    text-align: right;
+}
+.main-background{
+    background: white;
+    padding: 20%;
+    border-style: dashed;
+    border: 6px solid black;
+  border-radius: 25px;
+}
+.head{
+    width: 100%;
+	background: dimgrey;
+	height: 100%;
+    color: white;
+    padding: 2%;  
+}
+.link{
+    color: white;
+}
+.footer{
+    width: 100%;
+	background: black;
+	height: auto;
+    color: grey;
+    padding: 3%;   
+    position:absolute;
+    bottom: auto;
+    left: 0px;  
+    min-height: 10vh;
+}
+.bio{
+    background: radial-gradient(white, white);   
+    padding: 20%;  
+}
+.portfolio-background{
+    background-color: grey;
+    padding: 10%;
+    border-bottom-style: solid;
+}
+section {
+    display: flex;
+  }
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: grey;
+  }
+.flex{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;   
+}
+.wallpaperblock{
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(88, 88, 88);
+}
+header{
+ margin-bottom: 3%;
+}
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+  }
+.pictureleft{
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5%;
+}
+.pictureright{
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10%;
+}
+.text{
+margin: 5%;
+color:black;
+}
+.menu{
+    margin: 10%;
+}
+.container {
+    flex: 1 1 333.3px;
+    padding: 20px;
+    box-sizing: border-box;
+  
+    color: #FFF;
+    font-size: 12px;
+}

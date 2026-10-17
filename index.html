@@ -1,40 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>asswwa — links</title>
+    <meta name="description" content="Ярослав (asswwa) — делаю клиентские моды для Minecraft. Все ссылки в одном месте.">
+    <meta name="theme-color" content="#0b0e13">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-   <link rel="stylesheet" href="animation.css">
-   </head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="asswwa — links">
+    <meta property="og:description" content="Ярослав (asswwa) — делаю клиентские моды для Minecraft. Все ссылки в одном месте.">
+    <meta property="og:image" content="https://asswwa.github.io/avatar.png">
+    <meta property="og:locale" content="ru_RU">
+</head>
 <body>
-        <header>
-    <div class="head">
-      <div class="text">
-      <center>
-      <img src="logo.png" width="100" height="35">
-   </center>
-      <center>
-      <a class="link" href="index.html">Home</a>
-      <a class="link" href="guides.html">My works</a>
-      <a class="link" href="bio.html">Links</a>
-      </center>
-         </div>
-   </div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <main class="page">
+        <header class="hero">
+            <div class="avatar-wrap">
+                <img class="avatar" src="avatar.png" alt="avatar asswwa" width="112" height="112">
+            </div>
+            <h1 class="name">asswwa</h1>
+            <p class="handle">Ярослав · Новосибирск</p>
+            <p class="tagline">Делаю клиентские моды для Minecraft и учусь вебу</p>
         </header>
-   <div class="main-background">
-   <div id="object" class="slideUp">
-        <center>
-            <a>Hello, I am a beginner web developer. This is my personal blog, which I will gradually improve. This is not a portfolio.</a>
-        </center>
-   </div>
-   </div>
-   <footer class="footer">
-<em>This site is made by a newbie, don't take it seriously. Hello Alexey)</em>
-   </footer>
+
+        <section class="links" aria-label="Ссылки">
+
+            <article class="card">
+                <div class="card-head">
+                    <div class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+                            <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H5.4L3 22V11.5A8.5 8.5 0 0 1 11.5 3h1A8.5 8.5 0 0 1 21 11.5Z"/>
+                            <text x="12" y="15.2" text-anchor="middle" font-size="8.5" fill="currentColor" stroke="none" font-family="'Noto Sans CJK SC','Yu Gothic','Microsoft YaHei',sans-serif">文</text>
+                        </svg>
+                    </div>
+                    <div class="card-title">
+                        <h2>TranslateBar</h2>
+                        <p>Перевод прямо в строке чата Minecraft</p>
+                    </div>
+                    <span class="status"><span class="dot" aria-hidden="true"></span>скоро на Modrinth</span>
+                </div>
+
+                <p class="card-text">
+                    Клиентский Fabric-мод: нажимаешь кнопку «文» — текст в поле ввода
+                    переводится, не выходя из игры. 10 языков, без конфигов и API-ключей.
+                </p>
+
+                <div class="tags" aria-label="Характеристики">
+                    <span>Fabric</span>
+                    <span>1.21.11+</span>
+                    <span>клиентский</span>
+                </div>
+
+                <a class="repo-link" href="https://github.com/asswwa/TranslateBar" target="_blank" rel="noopener">
+                    <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                    Исходники на GitHub
+                    <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M7 17 17 7M9 7h8v8"/>
+                    </svg>
+                </a>
+            </article>
+
+            <a class="link-row" href="https://github.com/asswwa" target="_blank" rel="me noopener">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                </span>
+                <span class="label">
+                    <span class="label-name">GitHub</span>
+                    <span class="label-sub">@asswwa</span>
+                </span>
+                <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+            </a>
+
+            <a class="link-row" href="https://modrinth.com/user/asswa" target="_blank" rel="me noopener">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.252.004a11.78 11.768 0 0 0-8.92 3.73 11 10.999 0 0 0-2.17 3.11 11.37 11.359 0 0 0-1.16 5.169c0 1.42.17 2.5.6 3.77.24.759.77 1.899 1.17 2.529a12.3 12.298 0 0 0 8.85 5.639c.44.05 2.54.07 2.76.02.2-.04.22.1-.26-1.7l-.36-1.37-1.01-.06a8.5 8.489 0 0 1-5.18-1.8 5.34 5.34 0 0 1-1.3-1.26c0-.05.34-.28.74-.5a37.572 37.545 0 0 1 2.88-1.629c.03 0 .5.45 1.06.98l1 .97 2.07-.43 2.06-.43 1.47-1.47c.8-.8 1.48-1.5 1.48-1.52 0-.09-.42-1.63-.46-1.7-.04-.06-.2-.03-1.02.18-.53.13-1.2.3-1.45.4l-.48.15-.53.53-.53.53-.93.1-.93.07-.52-.5a2.7 2.7 0 0 1-.96-1.7l-.13-.6.43-.57c.68-.9.68-.9 1.46-1.1.4-.1.65-.2.83-.33.13-.099.65-.579 1.14-1.069l.9-.9-.7-.7-.7-.7-1.95.54c-1.07.3-1.96.53-1.97.53-.03 0-2.23 2.48-2.63 2.97l-.29.35.28 1.03c.16.56.3 1.16.31 1.34l.03.3-.34.23c-.37.23-2.22 1.3-2.84 1.63-.36.2-.37.2-.44.1-.08-.1-.23-.6-.32-1.03-.18-.86-.17-2.75.02-3.73a8.84 8.839 0 0 1 7.9-6.93c.43-.03.77-.08.78-.1.06-.17.5-2.999.47-3.039-.01-.02-.1-.02-.2-.03Zm3.68.67c-.2 0-.3.1-.37.38-.06.23-.46 2.42-.46 2.52 0 .04.1.11.22.16a8.51 8.499 0 0 1 2.99 2 8.38 8.379 0 0 1 2.16 3.449 6.9 6.9 0 0 1 .4 2.8c0 1.07 0 1.27-.1 1.73a9.37 9.369 0 0 1-1.76 3.769c-.32.4-.98 1.06-1.37 1.38-.38.32-1.54 1.1-1.7 1.14-.1.03-.1.06-.07.26.03.18.64 2.56.7 2.78l.06.06a12.07 12.058 0 0 0 7.27-9.4c.13-.77.13-2.58 0-3.4a11.96 11.948 0 0 0-5.73-8.578c-.7-.42-2.05-1.06-2.25-1.06Z"/>
+                    </svg>
+                </span>
+                <span class="label">
+                    <span class="label-name">Modrinth</span>
+                    <span class="label-sub">asswa</span>
+                </span>
+                <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+            </a>
+
+            <a class="link-row" href="https://t.me/im_asswa1337" target="_blank" rel="me noopener">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                    </svg>
+                </span>
+                <span class="label">
+                    <span class="label-name">Telegram</span>
+                    <span class="label-sub">@im_asswa1337</span>
+                </span>
+                <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+            </a>
+
+            <a class="link-row" href="https://www.twitch.tv/aswa1337" target="_blank" rel="me noopener">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+                    </svg>
+                </span>
+                <span class="label">
+                    <span class="label-name">Twitch</span>
+                    <span class="label-sub">aswa1337</span>
+                </span>
+                <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+            </a>
+
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 asswwa · GitHub Pages</p>
+        </footer>
+    </main>
 </body>
 </html>

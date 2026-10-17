@@ -467,3 +467,35 @@ a:focus-visible {
         margin-left: 0;
     }
 }
+
+/* ---------- ноутбук ---------- */
+
+.setup {
+    margin-top: 12px;
+}
+
+.specs {
+    margin: 13px 0 0;
+    display: grid;
+    gap: 7px;
+}
+
+.specs > div {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.specs dt {
+    flex: none;
+    min-width: 88px;
+    font-size: 12.5px;
+    color: var(--muted);
+}
+
+.specs dd {
+    margin: 0;
+    font-size: 12.5px;
+    font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    color: #c6cedb;
+}

@@ -11,7 +11,9 @@
 
 ## Проект на сайте
 
-- **TranslateBar** — клиентский Fabric-мод для Minecraft: переводит текст прямо в строке чата, не выходя из игры. Исходники: [asswwa/TranslateBar](https://github.com/asswwa/TranslateBar)
+- **TranslateBar** — клиентский Fabric-мод для Minecraft: переводит текст прямо в строке чата, не выходя из игры.
+  - Modrinth: [modrinth.com/mod/translatebar](https://modrinth.com/mod/translatebar) (публикация после модерации)
+  - Исходники: [asswwa/TranslateBar](https://github.com/asswwa/TranslateBar)
 
 ## Технически
 

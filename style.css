@@ -499,3 +499,52 @@ a:focus-visible {
     font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
     color: #c6cedb;
 }
+
+/* ---------- иконки-ссылки и плашки в карточках ---------- */
+
+.card-side {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.icon-link {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--muted);
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.icon-link svg {
+    width: 17px;
+    height: 17px;
+}
+
+.icon-link:hover {
+    color: var(--accent);
+    border-color: rgba(108, 209, 122, 0.4);
+    background: var(--accent-soft);
+}
+
+.card-badges {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-end;
+}
+
+.card-badges .status {
+    margin-left: 0;
+}
+
+.status--main {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0b0e13;
+}

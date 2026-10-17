@@ -359,6 +359,48 @@ body {
     color: #5d6675;
 }
 
+/* ---------- переключатель языка ---------- */
+
+.lang-switch {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    gap: 2px;
+    padding: 3px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.lang-btn {
+    padding: 4px 10px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: color 0.15s ease, background 0.15s ease;
+}
+
+.lang-btn:hover {
+    color: var(--text);
+}
+
+.lang-btn.is-active {
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+.lang-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+}
+
 /* ---------- доступность ---------- */
 
 a:focus-visible {
